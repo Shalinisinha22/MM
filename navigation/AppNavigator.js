@@ -194,6 +194,8 @@ url: "",},
                 <Stack.Screen name="orderHistory" component={OrderHistory} options={{ headerShown: false }} />
                 <Stack.Screen name="AllProducts" component={AllProducts} options={{ headerShown: false }} />
                 <Stack.Screen name="AllOrders" component={AllOrders} options={{ headerShown: false }} />
+             <Stack.Screen name="profile" component={Profile} options={{ headerShown: false }} />
+
 
             </Stack.Navigator>
         );
